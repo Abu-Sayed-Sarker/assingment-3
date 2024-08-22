@@ -1,12 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../src/output.css">
+
+    <!-- daisy ui link-->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awesome link  -->
+
+    <script src="https://kit.fontawesome.com/85eb752dd8.js" crossorigin="anonymous"></script>
+
 </head>
-<body>
-    <p class="bg-myclore">abu sayed</p>
+
+<body class="font-Manrope bg-full_body">
+    <!--------------- this is my hading area---------------- -->
+    <header class="bg-gradient-to-t from-gradint_color_1 to-gradint_color_2 pb-28">
+        <div class="lg:w-10/12 w-11/12 mx-auto">
+            <!-- navation var  -->
+            <div class="navbar bg-transparent">
+                <div class="navbar-start">
+                    <div class="flex flex-row">
+                        <button class="bg-praimary_color p-1 lg:h-10 lg:w-10 h-9 w-9 rounded-full">
+                            <svg class="h-4 w-4 mx-auto stroke-2" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                <path strokeLinecap="round" strokeLinejoin="round"
+                                    d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                            </svg>
+                        </button>
+                        <a href="#" class="lg:text-4xl text-3xl text-textColor font-extrabold ml-2">
+                            Rinterio
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu-horizontal px-1">
+                        <li><a class="text-secoundery_p_color cursor-pointer font-bold mx-4 text-base">Home</a></li>
+                        <li><a
+                                class="text-secoundery_text_color mx-4 cursor-pointer hover:text-secoundery_p_color hover:font-bold duration-200 text-base">Services</a>
+                        </li>
+                        <li><a
+                                class="text-secoundery_text_color mx-4 cursor-pointer hover:text-secoundery_p_color hover:font-bold duration-200 text-base">Portfolio</a>
+                        </li>
+                        <li><a
+                                class="text-secoundery_text_color mx-4 cursor-pointer hover:text-secoundery_p_color hover:font-bold duration-200 text-base">Blogs</a>
+                        </li>
+                        <li><a
+                                class="text-secoundery_text_color mx-4 cursor-pointer hover:text-secoundery_p_color hover:font-bold duration-200 text-base">Contact
+                                Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <div class="hidden lg:block">
+                        <div class="flex gap-4">
+                            <div class="bg-white h-12 w-12 flex items-center justify-center rounded-full">
+                                <a href="#" class="text-2xl text-secoundery_text_color"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                            <div class="bg-white h-12 w-12 flex items-center justify-center rounded-full">
+                                <a href="#" class="text-2xl text-secoundery_text_color"><i
+                                        class="fa-solid fa-cart-shopping"></i></a>
+                            </div>
+                            <button class="flex flex-row bg-praimary_color rounded-full">
+                                <div class="flex flex-row py-4 px-5">
+                                    <a href="#" class="text-xl text-textColor font-extrabold mr-2">
+                                        Book Consult
+                                    </a>
+                                    <a class="bg-black p-1 mt-1 text-white h-6  w-6 rounded-full">
+                                        <svg class="h-4 w-4 mx-auto stroke-2" xmlns="http://www.w3.org/2000/svg"
+                                            fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                                            className="size-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round"
+                                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="dropdown dropdown-end">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <i class="fa-solid fa-bars text-2xl"></i>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content  bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <a class="btn btn-ghost text-xl">daisyUI</a>
+                            <li><a
+                                    class="text-secoundery_text_color mx-4 cursor-pointer hover:text-secoundery_p_color hover:font-bold duration-200">Home</a>
+                            </li>
+                            <li><a
+                                    class="text-secoundery_text_color mx-4 cursor-pointer hover:text-secoundery_p_color hover:font-bold duration-200">Services</a>
+                            </li>
+                            <li><a
+                                    class="text-secoundery_text_color mx-4 cursor-pointer hover:text-secoundery_p_color hover:font-bold duration-200">Portfolio</a>
+                            </li>
+                            <li><a
+                                    class="text-secoundery_text_color mx-4 cursor-pointer hover:text-secoundery_p_color hover:font-bold duration-200">Blogs</a>
+                            </li>
+                            <li><a
+                                    class="text-secoundery_text_color mx-4 cursor-pointer hover:text-secoundery_p_color hover:font-bold duration-200">Contact
+                                    Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------- banner section ---------------------- -->
+            <div class="flex flex-col items-center gap-6">
+                <img src="../assets/banner.png " alt="">
+                <h1 class="lg:text-7xl text-2xl font-extrabold text-center">A barn house of this design has a striking appearance</h1>
+                <p class="text-center text-xs lg:text-base max-w-5xl text-secoundery_p_color">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+            </div>
+            <button class="flex flex-row bg-secound_btn_color rounded-full mx-auto my-8">
+                <div class="flex flex-row py-4 px-5">
+                    <a href="#" class="text-xl text-textColor font-extrabold mr-2">
+                        View Details
+                    </a>
+                    <a class="bg-praimary_color p-1 mt-1 h-6  w-6 rounded-full">
+                        <svg class="h-4 w-4 mx-auto stroke-2" xmlns="http://www.w3.org/2000/svg"
+                            fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                            className="size-6">
+                            <path strokeLinecap="round" strokeLinejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </a>
+                </div>
+            </button>
+        </div>
+    </header>
+    <main>
+        this is amin section
+    </main>
+
 </body>
+
 </html>
