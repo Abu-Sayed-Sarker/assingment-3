@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         full_body: "rgb(244, 244, 244)",
         gradint_color_1: "rgb(255, 255, 255)",
-        gradint_color_2: "#FFFFFF",
+        gradint_color_2: "rgba(255, 255, 255, 0)",
         textColor: "#212121",
         praimary_color: "#ABEF5F",
         secoundery_text_color: "rgb(115, 115, 115)",

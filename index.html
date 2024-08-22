@@ -20,7 +20,7 @@
 
 <body class="font-Manrope bg-full_body">
     <!--------------- this is my hading area---------------- -->
-    <header class="bg-gradient-to-t from-gradint_color_1 to-gradint_color_2 pb-28">
+    <header class="bg-gradient-to-t from-gradint_color_1 to-gradint_color_2 pb-28 bg-center bg-cover">
         <div class="lg:w-10/12 w-11/12 mx-auto">
             <!-- navation var  -->
             <div class="navbar bg-transparent">
@@ -89,7 +89,7 @@
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content  bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <a class="btn btn-ghost text-xl">daisyUI</a>
+                            <a class="btn btn-ghost text-xl">Rinterio</a>
                             <li><a
                                     class="text-secoundery_text_color mx-4 cursor-pointer hover:text-secoundery_p_color hover:font-bold duration-200">Home</a>
                             </li>
@@ -116,7 +116,7 @@
                 <p class="text-center text-xs lg:text-base max-w-5xl text-secoundery_p_color">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
             </div>
             <button class="flex flex-row bg-secound_btn_color rounded-full mx-auto my-8">
-                <div class="flex flex-row py-4 px-5">
+                <div class="flex flex-row py-4 lg:px-5 px-20">
                     <a href="#" class="text-xl text-textColor font-extrabold mr-2">
                         View Details
                     </a>
@@ -132,8 +132,45 @@
             </button>
         </div>
     </header>
-    <main>
-        this is amin section
+
+<!-- ------------------------------ main section started -----------------------------  -->
+<img class="lg:mt-5 lg:ml-[6%] lg:block hidden" src="./assets/Vector.png" alt="">
+    <main class="lg:w-10/12 w-11/12 mx-auto">
+
+        <!-- ------------------------- about aection ---------------------------------- -->
+        <section class="grid lg:grid-cols-2 grid-cols-1 gap-9 pb-32 mt-8 lg:mt-0">
+            <div class="">
+                <div class="flex justify-center lg:justify-start">
+                    <a class="bg-white px-4 py-2 rounded-full">
+                        <i class="fa-solid fa-arrow-right-long"></i> About Us
+                    </a>
+                </div>
+                <h1 class="lg:text-5xl text-2xl font-bold mt-6 mb-7 lg:text-left text-center">We design thoughtful, liveable spaces</h1>
+                <p class="lg:text-base text-sm text-secoundery_p_color lg:text-left text-center">The barn house captivates with its blend of rustic charm and 
+                    modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <div class="flex bg-white rounded-2xl my-6">
+                    <div class="py-6 pl-6">
+                        <img src="./assets/commercial.png" alt="">
+                    </div>
+                    <div class="p-6 max-w-80">
+                        <h4 class="text-secoundery_p_color text-xl font-extrabold mb-3">Commercial</h4>
+                        <p class="text-secoundery_text_color text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+                <div class="flex bg-white rounded-2xl">
+                    <div class="py-6 pl-6">
+                        <img src="./assets/residential.png" alt="">
+                    </div>
+                    <div class="p-6 max-w-80">
+                        <h4 class="text-secoundery_p_color text-xl font-extrabold mb-3">Residential</h4>
+                        <p class="text-secoundery_text_color text-base font-medium">The barn house captivates with its blend of rustic charm and modern.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="overflow-hidden">
+                <img src="./assets/Rectangle.png" alt="">
+            </div>
+        </section>
     </main>
 
 </body>
