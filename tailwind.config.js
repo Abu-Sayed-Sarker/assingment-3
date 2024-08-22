@@ -11,7 +11,11 @@ module.exports = {
         praimary_color: "#ABEF5F",
         secoundery_text_color: "rgb(115, 115, 115)",
         secoundery_p_color: "rgb(73, 73, 73)",
-        secound_btn_color: "rgba(171, 239, 95, 0.5)"
+        secound_btn_color: "rgba(171, 239, 95, 0.5)",
+        card1: "rgb(231, 193, 211)",
+        card2: "rgb(239, 218, 110)",
+        card3: "rgb(164, 218, 195)",
+        card4: "rgb(119, 170, 234)"
       },
       fontFamily: {
         Manrope: "Manrope, sans-serif;"
