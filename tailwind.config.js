@@ -15,10 +15,15 @@ module.exports = {
         card1: "rgb(231, 193, 211)",
         card2: "rgb(239, 218, 110)",
         card3: "rgb(164, 218, 195)",
-        card4: "rgb(119, 170, 234)"
+        card4: "rgb(119, 170, 234)",
+        btn_bg_color: "rgba(171, 239, 95, 0.2)",
+        border_color: "rgb(233, 233, 233)"
       },
       fontFamily: {
         Manrope: "Manrope, sans-serif;"
+      },
+      backgroundImage: {
+        form_bg: "url(./assets/bg.jpg)",
       }
     },
   },
