@@ -17,7 +17,7 @@ module.exports = {
         card3: "rgb(164, 218, 195)",
         card4: "rgb(119, 170, 234)",
         btn_bg_color: "rgba(171, 239, 95, 0.2)",
-        border_color: "rgb(233, 233, 233)"
+        border_color: "#E9E9E9"
       },
       fontFamily: {
         Manrope: "Manrope, sans-serif;"
